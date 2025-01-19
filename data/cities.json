@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -23,18 +11,6 @@
         "lng": -3.7133789062500004
       },
       "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
     },
     {
       "cityName": "Montemor-o-Novo",
@@ -61,18 +37,6 @@
       "id": 98443199
     },
     {
-      "cityName": "Varpalota",
-      "country": "Hungary",
-      "emoji": "🇭🇺",
-      "date": "2025-01-17T19:58:43.162Z",
-      "notes": "Budapeste is not far",
-      "position": {
-        "lat": "47.18971246448421",
-        "lng": "18.193359375000004"
-      },
-      "id": 98443200
-    },
-    {
       "cityName": "Castelo de Vide",
       "country": "Portugal",
       "emoji": "🇵🇹",
@@ -83,6 +47,30 @@
         "lng": "-7.550354003906251"
       },
       "id": 98443202
+    },
+    {
+      "cityName": "Faro",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2025-01-30T02:31:47.000Z",
+      "notes": "I would like to visit next",
+      "position": {
+        "lat": "37.01351910258053",
+        "lng": "-7.930755615234376"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2025-01-19T02:33:10.460Z",
+      "notes": "My favourite",
+      "position": {
+        "lat": "38.713375686254714",
+        "lng": "-9.131011962890627"
+      },
+      "id": 98443204
     }
   ]
 }
