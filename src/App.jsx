@@ -12,6 +12,7 @@ import City from "./components/City";
 import Form from "./components/Form";
 import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
+import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
   return (
@@ -25,7 +26,13 @@ function App() {
             <Route path="product" element={<Product />} />
             <Route path="login" element={<Login />} />
 
-            <Route path="app" element={<AppLayout />}>
+            <Route
+              path="app"
+              element={
+                <ProtectedRoute>
+                  <AppLayout />
+                </ProtectedRoute>
+              }>
               {/* think of the Navigate component as a redirect */}
               {/* the replace keyword is needed to enable back as it will replace the element in the browser's history stack*/}
               <Route index element={<Navigate replace to="cities" />} />
